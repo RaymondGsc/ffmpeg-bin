@@ -1,6 +1,6 @@
 {
-  "name": "ffmpeg-bin",
-  "version": "4.3.0",
+  "name": "ffmpeg-bin-ex",
+  "version": "0.1.0",
   "description": "ffmpeg static binaries for Mac OSX and Linux",
   "main": "index.js",
   "files": [
@@ -10,9 +10,8 @@
   ],
   "scripts": {
     "install": "node install.js",
-    "test": "node test.js",
     "lint": "eslint .",
-    "prepublishOnly": "npm run lint && npm test"
+    "prepublishOnly": "npm run lint"
   },
   "ffmpeg-static": {
     "binary-release-tag": "b4.3",
@@ -31,12 +30,13 @@
     "mac",
     "linux"
   ],
-  "author": "shuangchi.gsc",
+  "author": "gushuangchi",
   "license": "GPL-3.0-or-later",
   "engines": {
     "node": ">=10"
   },
   "devDependencies": {
     "eslint": "^7.2.0"
-  }
+  },
+  "dependencies": {}
 }
