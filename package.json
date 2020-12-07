@@ -1,7 +1,7 @@
 {
   "name": "ffmpeg-bin-ex",
-  "version": "0.1.0",
-  "description": "ffmpeg static binaries for Mac OSX and Linux",
+  "version": "0.1.1",
+  "description": "ffmpeg static binaries for Mac OSX and Linux x64",
   "main": "index.js",
   "files": [
     "index.js",
@@ -17,19 +17,6 @@
     "binary-release-tag": "b4.3",
     "binary-release-name": "4.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/RaymondGsc/ffmpeg-bin.git"
-  },
-  "keywords": [
-    "ffmpeg",
-    "static",
-    "library",
-    "binary",
-    "binaries",
-    "mac",
-    "linux"
-  ],
   "author": "gushuangchi",
   "license": "GPL-3.0-or-later",
   "engines": {
