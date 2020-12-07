@@ -1,6 +1,6 @@
 {
   "name": "ffmpeg-bin-ex",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ffmpeg static binaries for Mac OSX and Linux x64",
   "main": "index.js",
   "files": [
